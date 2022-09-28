@@ -1,0 +1,102 @@
+*{
+    background-color: #111111;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+.navbar ul{
+    background:none;
+    display: block;
+    padding: 0 20px;
+    margin: 0px;
+    float: right;
+}
+label{
+    font-size: 20pt;
+    color: whitesmoke;
+    margin: 10px;
+    padding: 5px;
+    float: left;
+}
+.navbar ul li{
+    float: right;
+}
+.navbar ul li:hover a{
+    color:red;
+    box-shadow: inset 0px 0px 5px rgb(52, 46, 46);
+    border-radius: 10px;
+}
+.navbar ul li a{
+    display: block;
+    padding: 20px;
+    color:#ddd;
+    text-decoration: none;
+    display: block;
+}
+#Welcome{
+    color:red;
+    font-size: 2em;
+    text-align: right;
+    margin:auto;
+    height: 30px;
+    padding: 150px;
+    background-image: url(Foto/1580442.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.p1, .p3 {
+    width: 400px;
+    float: left ;
+    margin-left: 150px;
+    margin-right: 4px;
+    color:antiquewhite;
+    text-align: justify;
+}
+.p2, .p4{
+    width: 400px;
+    float: left ;
+    margin-left: 200px;
+    margin-right:6px;
+    color:antiquewhite;
+    text-align: justify;
+}
+.Sinopsis {
+    color:antiquewhite;
+    font-size: 2em;
+    text-align: center;
+    margin: auto;
+    height: 30px;
+    padding: 50px;
+}
+.Karakter {
+    color:antiquewhite;
+    font-size: 2em;
+    text-align: center;
+    margin: auto;
+    height: 30px;
+    padding: 50px;
+}
+div.character {
+    margin-top: 100px;
+    margin-left: 15px;
+    margin-right: 17px;
+    padding: 26px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 167px;
+}
+div.character :hover {
+    border: 1px dashed red;
+}
+div.character img {
+    width: 100%;
+    height: auto;
+}
+div.nama {
+    padding: 15px;
+    text-align: center;
+}
+.nama{
+    color: red;
+    font-size: 1em;
+   
+}
