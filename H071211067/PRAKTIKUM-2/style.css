@@ -1,0 +1,298 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    background:maroon;
+}
+
+label.logo {
+    color:white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+nav ul {
+    font-family: cooper black;
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+a.active,a:hover {
+    background: white;
+    color: maroon;
+    transition: .5s;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+.center{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    height: 100%;
+}
+
+#Background  {
+    background: url(Wallpaper.jpg);
+    background-size: cover;
+    height: 400px;
+}
+
+#Header p {
+    text-align: center;
+    color: maroon;
+    font-family: Impact;
+    font-size:8.5vw;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+}
+
+.SubHeader {
+    text-align: center;
+    color: maroon;
+    font-family: Impact;
+    font-size: 3.9vw;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+}
+
+article {
+    margin-top: 4vw;
+    margin-bottom: 4vw;
+}
+
+#JudulArtikel h1 {
+    color: maroon;
+    font-size: 4vw;
+    text-align: center;
+    font-family: cooper black;
+    margin-bottom: 4vw
+}
+
+#SubArtikel {
+    font-family: Calibri;
+    font-size: 1.1vw;
+    color: rgb(255, 255, 255);
+    height: 30vw;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly
+}
+
+#Sub1 {
+    background-color: maroon;
+    width: 33vw;
+    height: 10vw;
+    text-align: justify;
+    padding:1vw;
+    border-radius: 9px;
+    margin-bottom: 3vw;
+}
+
+#Sub2 {
+    background-color: maroon;
+    width: 33vw;
+    height: 10vw;
+    text-align: justify;
+    padding: 1vw;
+    border-radius: 9px;
+    margin-bottom: 3vw;
+}
+
+#Sub3 {
+    background-color: maroon;
+    width: 33vw;
+    height: 12.9vw;
+    text-align: justify;
+    padding: 1vw;
+    border-radius: 9px;
+    margin-bottom: 3vw;
+}
+
+#Sub4 {
+    background-color: maroon;
+    width: 33vw;
+    height: 12.9vw;
+    text-align: justify;
+    padding: 1vw;
+    border-radius: 9px;
+    margin-bottom: 3vw;
+}
+
+card {
+    margin-top: 25px;
+    box-sizing: border-box;
+    font-family: Calibri;
+}
+
+#Testimoni h1 {
+    color: maroon;
+    font-size: 4vw;
+    text-align: center;
+    font-family: cooper black;
+}
+
+#row {
+    margin: 0-3px;
+}
+
+#column {
+    float: left;
+    width: 20%;
+    padding: 10px;
+}
+
+#card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    text-align: center;
+    background-color: #f1f1f1;
+    height: 425px;
+}
+
+#card img {
+    width: 200px;
+    height: 275px;
+}
+@media (max-width: 952px) {
+    label.logo {
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 858px) {
+   .checkbtn{
+    display: block;
+   }
+   ul{
+    position:fixed;
+    width: 100%;
+    height: 100vh;
+    background: black;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+   }
+   nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+   }
+   nav ul li a{
+    font-size: 20px;
+   }
+   a:hover,a.active{
+    background: none;
+    color: rgb(0, 0, 0);
+   }
+   #check:checked ~ ul{
+    left: 0;
+   }
+}
+
+@media (max-width: 1030px) {
+    #card {
+        width: 100%;
+        height:420px;
+    }
+
+    #column {
+        width: 30%;
+    }
+}
+
+@media (max-width: 770px) {
+    #card {
+        width: 100%;
+        height:450px;
+    }
+    #card img {
+        width: 175px;
+        height: 250px;
+    }
+    #column {
+        width: 30%;
+    }
+}
+
+@media (max-width: 690px) {
+    #card img {
+        width: 150px;
+        height: 225px;
+    }
+}
+
+@media (max-width: 600px) {
+    #card img {
+        width: 75px;
+        height: 150px;
+    }
+}
+
+@media (max-width: 460px) {
+    #card {
+        font-size: 13px;
+        height: 400px;
+    }
+}
+
+@media (max-width: 400px) {
+    #card {
+        font-size: 10px;
+        height: 325px;
+    }
+}
+
+@media (max-width: 330px) {
+    #card {
+        font-size: 8px;
+        height: 260px;
+    }
+    #card img {
+        width: 50px;
+        height: 125px;
+    }
+}
