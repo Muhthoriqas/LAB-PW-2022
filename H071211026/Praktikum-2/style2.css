@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.container{
+    display: flex;
+    position: sticky;
+}
+
+.wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: #5b0a39;
+}
+
+.brand {
+    justify-content: center;
+    margin: 15px;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list > li {
+    list-style-type: none;
+    padding: 25px;
+}
+
+.list > li > a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.list > li > a:hover{
+    background-color: purple;
+    color: white;
+    transition: all .3s ease-in-out;
+}
+
+.active:hover {
+    color: white !important;
+}
+
+.jumbotron {
+   background-image: url('img/bg-chatime.jpg');
+   /* background-attachment: fixed;  */
+   background-size: cover;
+   width: 100%;
+   height: 600px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.text-brand{
+    color: white;
+    font-size: 110px;
+}
+
+#history {
+    text-align: center; 
+    font-size: 30px; 
+    color:white;
+}
+
+.def{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.def-1 {
+    width: 300px;
+    background-color: #5b0a39;
+    border-radius: 20px;
+    text-align: center;
+    padding: 5px;
+    margin: 8px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.def2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.foto{
+     flex-wrap: wrap;
+    display: flex   ;
+    justify-content: center;
+
+}
+
+.gallery {
+    flex-direction: column;
+    margin: 5px;
+    /* float: left; */
+    width: 180px;
+    background-color: #5b0a39;
+    border-radius: 10px;
+}
+  
+.gallery:hover {
+    margin: 15px
+}
+  
+.gallery > img {
+    width: 100%;
+    /* height: auto; */
+    /* margin: auto; */
+}
+  
+.desc {
+    padding: 15px;
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* responsive start */
+@media screen and (max-width: 680px) {
+    .jumbotron {
+        background-image: url('img/bg-chatime.jpg');
+        background-size: cover;
+        width: 100%;
+        height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     }
+    
+    .def-1 {
+        width: 150px;
+        background-color: #5b0a39;
+        border-radius: 10px;
+        text-align: center;
+        padding: 5px;
+        margin: 8px;
+        color: white;
+        font-size: 12px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    #history {
+        text-align: center; 
+        font-size: 25px; 
+        color:white;
+    }
+
+    .text-brand > img{
+        height: 100px;
+        width: 5000px;
+    }
+
+    .gallery {
+        margin: 5px;
+        float: left;
+        width: 150px;
+        justify-content: center;
+        background-color: #5b0a39;
+        border-radius: 10px;
+    }
+      
+    .gallery:hover {
+        margin: 10px
+    }
+      
+    .gallery > img {
+        width: 50px;
+        height: 50px;
+        margin: auto;
+    }
+      
+    .desc {
+        padding: 5px;
+        text-align: center;
+        color: white;
+        font-size: 12px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+}
+
+@media screen and (max-width : 625px) {
+    .jumbotron {
+        background-image: url('img/bg-chatime.jpg');
+        /* background-attachment: fixed;  */
+        background-size: cover;
+        width: 100%;
+        height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     }
+    
+    .brand > img {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .text-brand > img{
+        height: 80px;
+        width: 400px;
+    }
+
+    .list > li {
+        list-style-type: none;
+        padding: 10px;
+    }
+    
+    .list > li > a {
+        color: white;
+        font-size: 15px;
+        text-decoration: none;
+        padding: 5px;
+    }
+
+    .def-1 {
+        width: 150px;
+        background-color: #5b0a39;
+        border-radius: 10px;
+        text-align: center;
+        padding: 5px;
+        margin: 8px;
+        color: white;
+        font-size: 12px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    #history {
+        text-align: center; 
+        font-size: 25px; 
+        color:white;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .jumbotron {
+        background-image: url('img/bg-chatime.jpg');
+        /* background-attachment: fixed;  */
+        background-size: cover;
+        width: 100%;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     }
+    
+    .text-brand > img{
+        height: 80px;
+        width: 400px;
+    }
+    
+    .def-1 {
+        width: 200px;
+        background-color: #5b0a39;
+        border-radius: 10px;
+        text-align: center;
+        padding: 5px;
+        margin: 8px;
+        color: white;
+        font-size: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    #history {
+        text-align: center; 
+        font-size: 20px; 
+        color:white;
+    }
+}
+/* responsive end */
