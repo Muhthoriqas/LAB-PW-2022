@@ -1,0 +1,65 @@
+body {
+    background-image: url(img/wizardingworld.jpeg);
+    background-attachment: fixed; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family:Oswald,sans-serif;
+}
+
+.napbar{ 
+    background-color: #23383f;
+}
+
+.carousel {
+    margin-bottom: 15px;
+}
+
+.karosel1 {
+    opacity: 5%;
+    transition: all .5s ease-in-out;
+}
+
+.karosel1:hover {
+    opacity: 100%;
+    transition: all .5s ease-in-out;
+}
+
+.kontener {
+    background-color:#23383f;
+}
+
+.teks{
+    color: white;
+}
+
+
+.list{
+    color: white;
+}
+
+.card-body {
+    background-color: #23383f;
+}
+
+.card-title {
+    color : white;
+}
+
+.card-text {
+    color: white;
+}
+
+.galeri{
+    background-color: #23383f;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.isi-alert{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container2{
+    margin-top: 15px;
+}
