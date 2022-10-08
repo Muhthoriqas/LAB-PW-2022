@@ -1,0 +1,132 @@
+*,
+html{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+   background-color :black;
+}
+/* Navbar  */
+.navbar{
+    background-color: black;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+.ul-navbar{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+}
+.li-navbar{
+    border: 1px solid black;
+    float: right;
+    margin: 15px;
+    font-style: 'Montserrat', sans-serif;
+    color: #e85a4f;
+    list-style-type: none;
+}
+.li-navbar:hover{
+    border: 1px solid gold;
+    /* Navbar-End */
+}
+/* Content  */
+#bg-shanks{   
+    color:white;
+    font-size: 2em;
+    text-align: center;
+    margin: auto;
+    height: 30px;
+    padding: 200px;
+    background-image: url(pic/jeki.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#p1, #p2, #p3{
+    color: #e85a4f;
+    float: left;
+    width:500px;
+    margin-top: 50px;
+    margin-right: 10px;
+    margin-left: 150px;
+    text-align: justify;
+}
+#p4{
+    color: #e85a4f;
+    width:500px;
+    float: left;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 150px;
+    margin-bottom: 80px;
+    text-align: justify;   
+}
+#officers1{   
+    font-size: 2em;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 1px;
+    height: 10px;
+    padding: 5px;
+    color: #e85a4f;
+}
+#officers{
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 5px;
+    height: 50px;
+    padding: 200px;
+    color: #e85a4f;
+}
+#officers2{
+    font-size: 2em;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    height: 10px;
+    padding: 10px;
+    color: #e85a4f;
+}
+/* Content-End  */
+
+/* Footer  */
+div.gallery {
+    margin: 18px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 172px;
+  } 
+div.gallery:hover {
+    border: 5px solid #e85a4f; 
+}  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  } 
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  .desc{
+    color: #e85a4f;
+    font-size: 1em;
+  }
+.allgalery{
+    display: flex;
+    justify-content: center;
+}
+/* Footer-End */
+
+/* Responsive Navbar  */
+/* Responsive Navbar-end */
+
+/* Responsive Content  */
+/* Responsive Content-end */
+
+/* Responsive Footer  */
+/* Responsive Footer-end  */
