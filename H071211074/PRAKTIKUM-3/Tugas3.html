@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minions Page</title>
+
+  <!--link ke file CSS Bootsrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
+  <!--Link ke file My CSS-->
+  <link rel="stylesheet" href="./Tugas3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+
+<body>
+  <!--Navbar Start-->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="./img/1.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+        BANANA
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#ost">OST</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#karakter">Karakter</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!--Navbar End-->
+
+  <!--Carousel Start-->
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./img/2.jpg" class="d-block w-100" alt="Gambar 1">
+      </div>
+      <div class="carousel-item">
+        <img src="./img/3.jpg" class="d-block w-100" alt="Gambar 2">
+      </div>
+      <div class="carousel-item">
+        <img src="./img/4.jpg" class="d-block w-100" alt="Gambar 3">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!--Carousel End-->
+
+  <!--Deskripsi Start-->
+  <section class="Deskripsi text-light" id="about">
+    <div class="container">
+      <div class="row text-center mb-3 mt-3">
+        <div class="col">
+          <h2>What is Minion</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <p>Minions adalah sebuah film komedi animasi komputer 3D, Amerika Serikat yang tayang pada tahun 2015 dan
+            merupakan prekuel /spin-off dari Despicable Me (2010) dan Despicable Me 2 (2013). Film tersebut diproduksi
+            oleh Illumination Entertainment dan distribusikan oleh Universal Pictures. Ditulis oleh Brian Lynch, film
+            tersebut disutradarai oleh Pierre Coffin dan Kyle Balda, dan diproduksi oleh Chris Meledandri dan Janet
+            Healy. Pada film tersebut diisi suara dengan 4 bahasa yaitu Italia, Spanyol, Inggris dan Indonesia. Film ini
+            dibintangi oleh Pierre Coffin (sebagai Minion), Sandra Bullock, Jon Hamm, Michael Keaton, Allison Janney,
+            Steve Coogan, dan Geoffrey Rush. Film ini pertama diprediksi di kredit penutupan dari Despicable Me 2, di
+            mana Stuart, Kevin dan Bob, tiga dari Minion, yang terlihat sedang mengikuti audisi untuk film ini</p>
+        </div>
+        <div class="col">
+          <p>Film ini ditayangkan perdana pada tanggal 11 Juni 2015 di London, dan dirilis di Amerika Serikat pada
+            tanggal 10 Juli 2015. Di Indonesia dan Australia film ini dirilis pada tanggal 17 Juni 2015. Tanggapan
+            kritik beragam: beberapa kritikus memuji aspek komedi film dan penampilan vokal Bullock dan Hamm, dengan
+            juga mengatakan mereka merasa bahwa karakter judul tidak dapat membawa film sendiri, dan bahwa penjahat
+            ditandai dengan datar. Film ini telah mendapat lebih dari $1,1 miliar di seluruh dunia (melampaui
+            masing-masing film Despicable Me), menjadikannya film terlaris kelima pada tahun 2015, film terlaris ke-20
+            sepanjang masa, film animasi terlaris keempat di belakang (di belakang Versi 2019 dari The Lion King,
+            Frozen, dan Incredibles 2) dan film animasi non-Disney terlaris. Sebuah sekuel, Minions: The Rise of Gru
+            akan dirilis pada 3 Juli 2020.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!--Deskripsi End-->
+
+  <!--Ost Start-->
+  <div class="container-fluid text-center text-light" id="ost">
+    <div class="row text-center mb-3 mt-3">
+      <div class="col">
+        <h2>OST</h2>
+      </div>
+    </div>
+    <div class="row justify-content-around">
+      <div class="col-md-2 mt-2 mb-2">
+        <button type="button" class="btn btn-primary">
+          Despicable Me <span class="badge text-bg-secondary">2013</span>
+        </button>
+        <ul class="text-start px-4">
+          <li><b>Despicable Me</b></li>
+          <li><b>Fun, Fun, Fun</b></li>
+          <li><b>I'm On a Roll</b></li>
+          <li><b>Minion Mambo</b></li>
+        </ul>
+      </div>
+      <div class="col-md-2 offset-md-1 mt-3 mb-2">
+        <button type="button" class="btn btn-primary">
+          Despicable Me <span class="badge text-bg-secondary">2015</span>
+        </button>
+        <ul class="text-start px-4">
+          <li><b>Happy</b></li>
+          <li><b>I swear</b></li>
+          <li><b>Scream</b></li>
+          <li><b>Just a Cloud Away</b></li>
+        </ul>
+      </div>
+      <div class="col-md-2 offset-md-1 mt-3 mb-2">
+        <button type="button" class="btn btn-primary">
+          Despicable Me <span class="badge text-bg-secondary">2017</span>
+        </button>
+        <ul class="text-start px-4">
+          <li><b>Yellow Ligth</b></li>
+          <li><b>Hug Me</b></li>
+          <li><b>Take On Me</b></li>
+          <li><b>Papa Mama Loca Pipa</b></li>
+        </ul>
+      </div>
+      <div class="col-md-2 offset-md-1 mt-3 mb-2">
+        <button type="button" class="btn btn-primary">
+          The Rise of Gru <span class="badge text-bg-secondary">2022</span>
+        </button>
+        <ul class="text-start px-4">
+          <li><b>Turn up The Sunshine</b></li>
+          <li><b>Shining Star</b></li>
+          <li><b>Funky Town</b></li>
+          <li><b>Hollywood Swinging</b></li>
+        </ul>
+      </div>
+    </div>
+    <!--Ost end-->
+
+    <!--Card Start-->
+    <div class="container-fluid" id="karakter">
+      <div class="row text-center mb-3 mt-4">
+        <div class="col">
+          <h2>Karakter</h2>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-3">
+          <div class="card shadow p-3 mb-5 bg-body rounded" style="width: 300px;">
+            <img src="./img/kevin.jpg" class="card-img-top" alt="kevin" style="width: 100%; height: 300px;">
+            <div class="card-body">
+              <a href="#" class="btn btn-primary">KEVIN</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card shadow p-3 mb-5 bg-body rounded" style="width: 300px;">
+            <img src="./img/stuart3.png" class="card-img-top" alt="stuart" style="width: 100%; height: 300px;">
+            <div class="card-body">
+              <a href="#" class="btn btn-primary">STUART</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card shadow p-3 mb-5 bg-body rounded" style="width: 300px;">
+            <img src="./img/bob2.png" class="card-img-top" alt="bob" style="width: 90%; height: 300px;">
+            <div class="card-body">
+              <a href="#" class="btn btn-primary">BOB</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card shadow p-3 mb-5 bg-body rounded" style="width: 300px;">
+            <img src="./img/dave3.jpg" class="card-img-top" alt="dave" style="width: 100%; height: 300px;">
+            <div class="card-body">
+              <a href="#" class="btn btn-primary">DAVE</a>
+            </div>
+          </div>
+        </div>
+        <!--Card End-->
+
+        <!-- Footer Start-->
+        <footer class="text-center text-lg-start text-muted">
+          <!-- Section: Alert -->
+
+          <div class="alert alert-primary" role="alert">
+            <section class="d-flex justify-content-center justify-content-lg-between p-0 border-bottom">
+              <!-- Left -->
+
+
+              <div class="me-5 d-none d-lg-block">
+                <span>Get connected with us on social networks:</span>
+              </div>
+              <!-- Left -->
+
+              <!-- Right -->
+              <div>
+                <a href="" class="me-4 link-secondary">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="" class="me-4 link-secondary">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="" class="me-4 link-secondary">
+                  <i class="fab fa-google"></i>
+                </a>
+                <a href="" class="me-4 link-secondary">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="" class="me-4 link-secondary">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="" class="me-4 link-secondary">
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+              <!-- Right -->
+            </section>
+          </div>
+
+          <!-- Section: Alert -->
+
+          <!-- Section: Links  -->
+          <section class="link">
+            <div class="container text-center text-md-start mt-5">
+              <!-- Grid row -->
+              <div class="row mt-3">
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-4 col-xl-3 mx-auto mb-4">
+                  <!-- Content -->
+                  <h6 class="text-uppercase fw-bold mb-4">
+                    <i class="fas fa-gem me-3 text-secondary"></i>Comentar
+                  </h6>
+                  <form>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">Password</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                  <!-- Links -->
+                  <h6 class="text-uppercase fw-bold mb-4">
+                    Products
+                  </h6>
+                  <p>
+                    <a href="#!" class="text-reset">Angular</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-reset">React</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-reset">Vue</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-reset">Laravel</a>
+                  </p>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                  <!-- Links -->
+                  <h6 class="text-uppercase fw-bold mb-4">
+                    Useful links
+                  </h6>
+                  <p>
+                    <a href="#!" class="text-reset">Pricing</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-reset">Settings</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-reset">Orders</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-reset">Help</a>
+                  </p>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                  <!-- Links -->
+                  <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                  <p><i class="fas fa-home me-3 text-secondary"></i> New York, NY 10012, US</p>
+                  <p>
+                    <i class="fas fa-envelope me-3 text-secondary"></i>
+                    info@example.com
+                  </p>
+                  <p><i class="fas fa-phone me-3 text-secondary"></i> + 01 234 567 88</p>
+                  <p><i class="fas fa-print me-3 text-secondary"></i> + 01 234 567 89</p>
+                </div>
+                <!-- Grid column -->
+              </div>
+              <!-- Grid row -->
+            </div>
+          </section>
+          <!-- Section: Links  -->
+
+          <!-- Copyright -->
+          <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+            created with love by
+            <b>WdAnandaLesmono</b>
+          </div>
+          <!-- Copyright -->
+        </footer>
+        <!--footer End-->
+
+        <!--Script ke file Java Script Bootstrap-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+          crossorigin="anonymous"></script>
+</body>
+
+</html>
