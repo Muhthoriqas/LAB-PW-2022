@@ -1,0 +1,82 @@
+/* Universal */
+.btn{
+    background-color:maroon;
+    color: white;
+}
+
+
+
+/* Carousel */
+.carouselh5{
+    font-family: Impact;
+}
+
+.carouselp{
+    font-family: Calibri;
+}
+
+
+
+/* Description */
+.des{
+    margin-top:100px;
+}
+
+.descriptionh1{
+    font-family:Impact;
+}
+
+
+
+/* Badge */
+.bad{
+    margin-top:100px;
+}
+
+.badgeh1{
+    font-family:Impact;
+}
+
+.isi{
+    text-align:justify;
+}
+
+
+
+/* Card */
+.car{
+    margin-top:100px;
+}
+
+.cardh1{
+    font-family:Impact;
+}
+
+.card-title{
+    font-family:calibri;
+}
+
+.card-text{
+    font-family:calibri;
+    height:150px;
+}
+
+
+
+/* Alert */
+.alert{
+    background-color:maroon;
+    color: white; 
+    text-align: center;
+    font-family:calibri;
+}
+
+
+
+/* Footer */
+.footerh3{
+    font-family: Impact;
+}
+.social{
+    display:flex;
+}
