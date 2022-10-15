@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T4 | N1</title>
+</head>
+<body>
+    TUGAS 4 
+    <br> 
+    NOMOR 1
+
+    <script>
+        var nama = prompt("Selamat datang di toko serba ada TuTu, silahkan masukkan nama anda :")
+        
+        if (nama.trim()){
+
+            var uang = prompt(nama + ", tolong beri tahu berapa uang anda :")
+            if (isNaN(uang)){
+                console.log("uang harus berupa angka")
+            }
+            else {
+            var a = prompt(nama + " ingin membeli apa? \n 1 = senjata \n 2 = potion \n 3 = pet ")
+
+            //SENJATA
+            if (a == 1) {
+
+                var pedang = 10000
+                var tombak = 12000
+                var dagger = 18000
+                var panah = 10000
+                var tongkat = 15000
+
+                var b = prompt("ingin membeli senjata apa? 1 = pedang \n 2 = tombak \n 3 = dagger \n 4 = panah \n 5 = tongkat magic ")
+                if (b == "1"){
+                    if (uang >= pedang) {
+                        console.log(nama + " telah membeli pedang")
+                    }
+                    else {
+                        console.log("maaf " + nama + ", anda tidak memiliki uang yang cukup")
+                    }  
+                }
+                else if (b == "2") {
+                    if (uang >= tombak) {
+                        console.log(nama + " telah membeli tombak")
+                    }
+                    else {
+                        console.log("maaf " + nama + ", anda tidak memiliki uang yang cukup")
+                    }
+                }
+                else if (b == "3") {
+                    if (uang >= dagger) {
+                        console.log(nama + " telah membeli dagger")
+                    }
+                    else {
+                        console.log("maaf " + nama + ", anda tidak memiliki uang yang cukup")
+                    }
+                }
+                else if (b == "4") {
+                    if (uang >= panah) {
+                        console.log(nama + " telah membeli panah")
+                    }
+                    else {
+                        console.log("maaf " + nama + ", anda tidak memiliki uang yang cukup")
+                    }
+                }
+                else if (b == "5") {
+                    if (uang >= tongkat) {
+                        console.log(nama + " telah membeli tongkat magic")
+                    }
+                    else {
+                        console.log("maaf " + nama + ", anda tidak memiliki uang yang cukup")
+                    }
+                }
+                else {
+                    console.log("Pilihan tidak ada")
+                }
+            }
+
+            //POTION
+            else if (a == 2) {
+                
+                var darah1 = 5000
+                var mana1 = 5000
+                var darah2 = 8000
+                var mana2 = 8000
+                var darah3 = 11000
+                var mana3 = 11000
+
+                var c = prompt("ingin membeli potion apa? 1 = potion darah small \n 2 = potion darah medium \n 3 = potion darah large \n 4 = potion mana small \n 5 =  potion mana medium \n 6 =  potion mana large")
+                if (c == "1"){
+                    if (uang >= darah1) {
+                        console.log(nama + " telah membeli potion darah small")
+                    }
+                    else {
+                        console.log("maaf " + nama + ", anda tidak memiliki uang yang cukup")
+                    }  
+                }
+                else if (c == "2") {
+                    if (uang >= darah2) {
+                        console.log(nama + " telah membeli potion darah medium")
+                    }
+                    else {
+                        console.log("maaf " + nama + ", anda tidak memiliki uang yang cukup")
+                    }
+                }
+                else if (c == "3") {
+                    if (uang >= darah3) {
+                        console.log(nama + " telah membeli potion darah large")
+                    }
+                    else {
+                        console.log("maaf " + nama + ", anda tidak memiliki uang yang cukup")
+                    }
+                }
+                else if (c == "4") {
+                    if (uang >= mana1) {
+                        console.log(nama + " telah membeli potion mana small")
+                    }
+                    else {
+                        console.log("maaf " + nama + ", anda tidak memiliki uang yang cukup")
+                    }
+                }
+                else if (c == "5") {
+                    if (uang >= mana2) {
+                        console.log(nama + " telah membeli potion mana medium")
+                    }
+                    else {
+                        console.log("maaf " + nama + ", anda tidak memiliki uang yang cukup")
+                    }
+                }
+                else if (c == "6") {
+                    if (uang >= mana3) {
+                        console.log(nama + " telah membeli potion mana large")
+                    }
+                    else {
+                        console.log("maaf " + nama + ", anda tidak memiliki uang yang cukup")
+                    }
+                }
+                else {
+                    console.log("Pilihan tidak ada")
+                }
+            }
+
+            //PET
+            else if (a == "3"){
+                var griffin = 30000
+                var phoenix = 50000
+                var lion = 70000
+
+                var d = prompt("ingin membeli pet apa? 1 = Griffin \n 2 = Phoenix \n 3 = Moonlight Lion")
+                if (d == "1"){
+                    if (uang >= griffin) {
+                        console.log(nama + " telah membeli seekor griffin")
+                    }
+                    else {
+                        console.log("maaf " + nama + ", anda tidak memiliki uang yang cukup")
+                    }  
+                }
+                else if (d == "2") {
+                    if (uang >= phoenix) {
+                        console.log(nama + " telah membeli seekor phoenix")
+                    }
+                    else {
+                        console.log("maaf " + nama + ", anda tidak memiliki uang yang cukup")
+                    }
+                }
+                else if (d == "3") {
+                    if (uang >= lion) {
+                        console.log(nama + " telah membeli seekor moonlight lion")
+                    }
+                    else {
+                        console.log("maaf " + nama + ", anda tidak memiliki uang yang cukup")
+                    }
+                }
+                else {
+                    console.log("Pilihan tidak ada")
+                }
+            }
+
+            //INPUT GAJE
+            else {
+                console.log("Masukkan jawaban sesuai aturan")
+            }
+        }
+        }
+        else {
+            console.log("tolong masukkan nama terlebih dahulu")
+        }
+    </script>
+
+</body>
+</html>
