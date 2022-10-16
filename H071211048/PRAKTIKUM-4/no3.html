@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>tugas</title>
+        <script>
+            var x = prompt ('input text');
+            var counts = {};
+            //counts : simpan total huruf 
+            
+            for (var i = 0; i < x.length; i++) {
+                var y = x.charAt(i);
+
+                if (y == ' ') {
+                    y = 'spasi' ;
+                }
+                counts[y] == undefined ? counts[y] = 1 : counts[y]++;
+                
+            }
+            for ( var z in counts) {
+                console.log(z + '=' + counts[z]);
+            }
+
+        </script>
+    </head>
+    <body>
+        
+    </body>
+</html>
