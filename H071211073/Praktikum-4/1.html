@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nomor 1</title>
+</head>
+
+<body>
+    <script>
+        //  TODO: NOMOR 1
+var nama = prompt("Masukkan Nama Anda");
+
+if (nama.trim()) {
+  var TugasPrak = prompt("Sudah mengumpulkan Tugas Praktikum? YES atau NO");
+  TugasPrak = TugasPrak.toUpperCase();
+  if (TugasPrak !== "YES" && TugasPrak !== "NO") {
+    console.log("Masukkan input yang benar yaitu YES atau NO");
+  } else {
+    if (TugasPrak == "YES") {
+      TugasPrak === true;
+      var assitensi = prompt("Ikut Asistensi? YES atau NO");
+      assitensi = assitensi.toUpperCase();
+      if (assitensi == "YES" && TugasPrak) {
+        var manyAssitensi = prompt("Sudah Berapa kali assitensi? 1 atau 2");
+        if (manyAssitensi == 1) {
+          console.log("Assitensi sekali lagi ya", nama);
+        } else if (manyAssitensi == 2) {
+          console.log("Hebat kamu ", nama, ":)");
+        } else {
+          console.log("Masukkan input yang benar yaitu 1 atau 2");
+        }
+      } else {
+        console.log("Assitensi Dulu ya", nama);
+      }
+    } else {
+      console.log("Jangan lupa di kerja tugas praktikumnya", nama);
+    }
+  }
+} else {
+  console.log("Masukkan nama anda terlebih dahulu  ");
+} 
+
+        /* + Nilai + Jika kasusnya berbeda dengan contoh di atas,
+        contoh kasus lain yaitu inputan awalnya nama dan pesanan pada rumah makan. 
+        Semakin uniq kasusnya semakin bagus! 
+        */
+
+    </script>
+</body>
+
+</html>
