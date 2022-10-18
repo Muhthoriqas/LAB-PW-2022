@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nomor 3</title>
+</head>
+
+<body>
+    <script>
+        // program yang menghitung jumlah seluruh huruf, angka, simbol dan spasi pada input user
+        // User akan disuruh memasukkan input kalimat
+        var input = prompt("input any");
+        var chars = input.split("");
+        var lettersCount = {}; 
+
+
+        // hitung spasi dulu di split.
+        for (var i = 0; i < chars.length; i++) {
+            if (lettersCount[chars[i]] == undefined) {
+                lettersCount[chars[i]] = 0;
+            }
+            lettersCount[chars[i]]++;
+        }
+        for (var i in lettersCount) {
+
+            if (i === " ") {
+                console.log("spasi = " + lettersCount[i]);
+            } else {
+                console.log(i + " = " + lettersCount[i]);
+
+            }
+        }
+    </script>
+</body>
+
+</html>

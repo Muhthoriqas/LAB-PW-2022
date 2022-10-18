@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nomor 2</title>
+</head>
+
+<body>
+    <script>
+        // program matematika yang mengambil minimal 2 input user contohnya disini kasus perkalian.
+        // User akan diminta ingin melihat perkalian berapa ?
+        // ok : user akan diminta lagi untuk memasukkan input dengan pertanyaan “Ingin dikalikan sampai berapa?”
+        var basis = prompt('Ingin melihat perkalian berapa ?');
+        
+
+        var kaliTotal = 0;
+
+
+
+        // + Jika input yang dimasukkan user bukan berupa angka
+        //method isNaN
+        if (isNaN(basis)) {
+            console.log("angka");
+
+        } else {
+            //Terdapat output seluruh perkalian
+
+            var multiplier = prompt('Ingin dikalikan sampai berapa?');
+            for (let i = 1; i <= multiplier; i++) {
+                var kali = i * basis;
+                console.log(i + " x " + basis + " = " + kali);
+
+                kaliTotal = kaliTotal + kali;
+            }
+        }
+
+        // + Terdapat output jumlah seluruh perkalian 
+        console.log(kaliTotal);
+
+        // + Kasusnya berbeda dari contoh misalnya penjumlahan, pembagian , atau rumus matematika lainnya
+    </script>
+</body>
+
+</html>
