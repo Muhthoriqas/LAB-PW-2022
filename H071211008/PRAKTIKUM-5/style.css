@@ -1,0 +1,39 @@
+body{
+    background-image: url('foto/79d8329ea8e1ecc94e4799f3f2f55b52.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1{
+    color: red;
+    text-shadow: 3px 2px 1px #000000;
+    text-align: center;
+    margin-top: 30px;   
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h5{
+    color: white;
+}
+
+.str{
+    text-align: center;
+    background-color: rgba(115, 12, 12, 0.793);
+    margin-left: 300px;
+    margin-right: 300px;
+    border-radius: 7px;
+}
+
+input{
+    border-radius: 30px;
+    text-align: center;
+}
+
+h7{
+    color: white;
+}
+
+span {
+    margin-right: 7px;
+}

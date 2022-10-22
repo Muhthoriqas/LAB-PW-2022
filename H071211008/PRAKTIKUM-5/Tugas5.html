@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlackJack</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="str">
+        <h1>BlackJack</h1>
+        <div>
+            <h5 id="play">Play A Round</h5>
+            <br>
+            <h5 >Your Card: 
+                <span id="cards"></span>
+            </h5>
+            <br>
+            <div>
+                <h5> Sum: <span id="sum"></h5>
+                <button onclick="startGame()" class="badge bg-light text-dark" id="start">START GAME</button>
+                <button onclick="takeCard()" class="badge bg-dark" id="take">TAKE CARD</button>
+            </div>
+            <br>
+            <div>
+                <h7 id="info"></h7>
+            </div>
+            <br>
+            <div>
+                <h5>Your Money: Rp.<span id="money"></span></h5>
+                <input type="number" id="bet" placeholder="Set Your Bet..">
+                <p><h6><button onclick="reset()" class="badge bg-danger" id="reset">Reset Money</button></h6></p>
+            </div>
+            <br>
+        </div>
+    </div>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
