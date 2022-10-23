@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blackjack</title>
+    <link rel="stylesheet" href="style.css">
+      
+</head>
+<body>
+        <h1>BlackJack</h1>
+        <h2 id="message" >Play A Round?</h2>
+        <h2 >Your Card : <span id="card"></span></h2>
+        <h2 >Sum : <span id="sum"></span></h2>
+
+
+        <div id="center">
+            <button onclick = "startGame()" id="start">Start Game</button>
+            <button onclick = "takeCard()" id="take">Take Card</button>
+
+            <h2>Your Money : <span id="money"></span> </h2>
+        
+            <label for="setYourBet"></label>    
+            <input type="number" name="setYourBet" id="setYourBet" placeholder="Set Your Bet">
+
+            <div id="resetyourMoney">
+                <button onclick = "resetMoney()" id="reset">Reset Money</button>
+            </div>
+   
+        </div> 
+
+    <script src="script.js"></script> 
+</body>
+</html>
