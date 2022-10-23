@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> BlackJack </title>
+    <link rel="stylesheet" href="game.css">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    
+</head>
+
+<body background="pict/bekgron.jpg">
+    <h1> <b>BlackJack</b>  </h1>
+    <h3 id="kondisi"> Play a Round? </h3>  <br>
+    <h3> Your Cards : <span id="your-cards"> </span> </h3> <br>
+
+    <div class="jumlah">
+        <h3> Sum : <span id="sum"> </span> </h3>
+        <div class="button1">
+            <button onclick="start()" id="start"> Start Game </button>
+            <button onclick="take()" id="take"> Take Card </button>
+        </div>
+    </div>
+    <h3 id="pesan"> </h3>
+    <br>
+    <div class="your-money">
+        <h3>Your Money : <span id="money"> 5000 </span> </h3>
+        <input type="number" id="bet" placeholder="Set Your Bet">
+    </div>
+    <br>
+
+    <button onclick="reset()" id="reset"> RESET MONEY</button>
+    <script src="game.js"></script>
+</body>
+</html>
