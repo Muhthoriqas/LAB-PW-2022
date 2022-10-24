@@ -1,0 +1,269 @@
+
+body {
+  padding: 0;
+  margin: 0;
+  background: url('cards/images/wp.jpg') no-repeat center center/cover fixed;
+  height: 100vh;
+}
+
+#container {
+  position: relative;
+}
+
+#dealHand {
+  position: absolute;
+  top: 0.5vh;
+  left: 0.5rem;
+  color: white;
+}
+
+#dealHand h2,
+#plyHand h2{
+  font-size: 2.5rem;
+}
+
+#dealHandResult,
+#plyHandResult{
+  color: #85929E;
+  /* text-decoration: underline; */
+}
+
+#plyHand {
+  position: absolute;
+  top: 93vh;
+  right: 0.5rem;
+  color: white;
+}
+
+#chipCount {
+  position: absolute;
+  top: 90vh;
+  left: 0.5rem;
+  display: flex;
+}
+
+#chipCountResult {
+  color: #85929E;
+  font-size: 2rem;
+  padding: 1rem;
+  /* margin-bottom: 10px; */
+}
+
+#noChipMsg {
+  color: #85929E;
+  font-size: 1.7rem;
+  text-decoration: underline overline;
+  font-style: italic;
+  padding: 1.5rem 0 1rem 0;
+}
+
+#BJlogo {
+  position: absolute;
+  right: 0;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+#dealBtn button,
+#standBtn button {
+  color: white;
+  padding: 2rem 4rem;
+  border-radius: 5rem;
+  font-size: 50px;
+}
+
+#hitBtn button {
+  font-size: 50px;
+  padding: 2rem 6.5rem;
+  border-radius: 5rem;
+  
+}
+
+#dealBtn {
+  position: absolute;
+  top: 40vh;
+  left: 5vh;
+}
+
+#hitBtn {
+  position: absolute;
+  top: 25vh;
+  right: 5vh;
+}
+
+#standBtn {
+  position: absolute;
+  top: 55vh;
+  right: 5vh;
+}
+
+#dealerCards {
+  position: absolute;
+  top: 30vh;
+  left: 22%;
+  display: flex;
+  width: 55%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.Cards img {
+  height: 180px;
+  width: 180px;
+  padding-right: 2rem;
+}
+
+#plyCards {
+  position: absolute;
+  top: 70vh;
+  left: 22%;
+  display: flex;
+  width: 55%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#bust {
+  position: absolute;
+  top: 55vh;
+  left: 33%;
+  width: 35%;
+  text-align: center;
+
+}
+
+#plybust,
+#dealbust,
+#dealwin,
+#plywin,
+#drawID {
+  color: white;
+  border: 0.5vh #85929E;
+  font-size: 7vh;
+  text-align: center;
+}
+
+#dev{
+  position: absolute;
+  top: 0.5rem;
+  right: 22vh;
+  color: white;
+  text-decoration: underline;
+}
+
+.devName {
+  font-weight: bold;
+  font-size: 2.8vh;
+}
+
+#mediaMsg {
+  display: none;
+}
+
+@media (orientation: landscape) and (max-width: 1024px){
+  #mediaMsg{
+    display: none;
+  }
+
+  body {
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  #dealHand h2,
+  #plyHand h2{
+    font-size: 1.3rem;
+  }
+
+
+  #chipCount {
+    top : 87vh;
+  }
+
+  #chipCount img{
+    width: 70px;
+    height: 60px;
+  }
+
+  #chipCountResult {
+    font-size: 1.5rem;
+  }
+
+  #BJlogo img{
+    width: 6rem;
+  }
+
+  #hitBtn {
+    top: 30vh;
+  }
+
+  #dealBtn {
+    top: 45vh;
+  }
+
+  #standBtn {
+    top: 60vh;
+  }
+
+  #dealBtn button,
+  #standBtn button{
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+  }
+
+  #hitBtn button {
+    font-size: 2rem;
+    padding: 0.5rem 3.4rem;
+  }
+
+  #dealerCards{
+    width: 50%;
+    left: 25%;
+  }
+
+  #bust {
+    width: 30%;
+    top: 58vh;
+    left: 35%;
+  }
+
+  #plyCards {
+    width: 50%;
+    left: 25%;
+  }
+
+  .Cards img {
+    height: 6.5rem;
+    width: 6.5rem;
+    padding-right: 1.2rem;
+  }
+
+  #plybust,
+  #dealbust,
+  #dealwin,
+  #plywin,
+  #drawID {
+    border: 0.3vh;
+    font-size: 4vh;
+  }
+
+  #dev {
+    right: 10%;
+  }
+
+  .devName {
+    font-size: 1.1rem;
+  }
+}
+
+@media (orientation: portrait) and (max-width: 1000px){
+  #container{
+    display: none;
+  }
+  #mediaMsg {
+    font-weight: bolder;
+    text-align: center;
+    padding: 40vh 2rem;
+    display: block;
+  }
+}

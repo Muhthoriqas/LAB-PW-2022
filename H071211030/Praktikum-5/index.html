@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>BlackJack by JokerPoker</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu&display=swap" rel="stylesheet">
+  <style media="screen">
+    body {
+      /* font-family: 'Krona One', sans-serif; */
+      /* font-family: 'Montserrat', sans-serif; */
+      font-family: 'Ubuntu', sans-serif
+    }
+  </style>
+</head>
+
+<body>
+  <div id="container">
+    <div id="dealHand">
+      <h3>Dealer's Hand : <span id="dealHandResult">0</span></h3>
+    </div>
+    <div id="plyHand">
+      <h3>Player's Hand : <span id="plyHandResult">0</span></h3>
+    </div>
+    <div id="chipCount">
+      <img src="cards/images/chipss.png" width="70px">
+      <span id="chipCountResult">$5000</span>
+      <span id="noChipMsg"></span>
+    </div>
+    <div id="BJlogo">
+      <img src="cards/images/pngegg.png" width="60px">
+    </div>
+    <div id="dealBtn">
+      <button type="button" class="btn btn-success" id="dealbutton" onclick="start()"><b>DEAL</b></button>
+      <input type="number" id="inputbet" value="" placeholder="Pasang Taruhan Anda">
+    </div>
+    <div id="hitBtn">
+      <button type="button" class="btn btn-dark" id="hitbutton" onclick="hit()"><b>HIT</b></button>
+    </div>
+    <div id="standBtn">
+      <button type="button" class="btn btn-danger" id="standbutton"><b>STAND</b></button>
+    </div>
+    <div id="dealerCards" class="Cards"></div>
+    <div id="plyCards" class="Cards"></div>
+    <div id="bust"></div>
+    <div id="dev">
+      <h1 class="devName">Part of: <a href="https://ramstuy.github.io/JokerPoker/" target="_blank" style="color:#85929E">JokerPoker</a></h1>
+    </div>
+  </div>
+  <div id='mediaMsg'>
+    <h1 style="color: whitesmoke;">THIS GAME COULD ONLY BE PLAYED IN <span style="color:red">LANDSCAPE </span>MODE.*TILT YOUR DEVICE*</h1>
+  </div>
+  <script src="app.js" defer></script>
+</body>
+
+</html>
