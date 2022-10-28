@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlackJack</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nabla&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            max-width: 720px;
+            margin: 0 auto;
+            font-family: 'Source Sans Pro', sans-serif;
+            font-weight: 600;
+            font-size: 2rem;
+            text-align: center;
+            background-image: url("Foto/poker-purple-background-playing-card-symbols-pattern-blackjack-vector.jpg");
+            color: aliceblue;
+        }
+
+        button,
+        #takecard {
+            font-size: 2rem;
+            border-radius: 10px;
+            border: 1px solid black;
+            box-shadow: 2px 2px grey;
+        }
+
+        input {
+            font-size: 1.8rem;
+            margin-bottom: 2rem;
+            max-width: 10rem;
+        }
+
+        #reset {
+            background-color: brown;
+            color: beige;
+        }
+
+        #start {
+            background-color: cadetblue;
+            color: black;
+        }
+
+        #takecard {
+            background-color: chocolate;
+            color: black;
+        }
+
+        #stat {
+            color: brown;
+            font-size: 4rem;
+            font-family: 'Nabla', cursive;
+        }
+
+        img {
+            width: 50%;
+        }
+        
+        #kael {
+            display: none;
+        }
+    </style>
+    <!-- <script> document.getElementById("maineee").style.visibility = "hidden";
+    </script> -->
+</head>
+
+<body oncontextmenu="return false;">
+    <main>
+        <div id="stat"></div>
+        <p>Your cards: </p>
+        <p id="card"></p>
+        <p id="sum">Sum: </p>
+        <button onclick="startGame();" id="start">Start</button>
+        <input id="takecard" type="button" value="Take card" onclick="takeCard();" />
+        <p id="status"></p>
+        <p id="money"></p>
+        <input type="number" name="" id="bet">
+        <br>
+        <button type="reset" onclick="resetGame();" id="reset">Reset</button>
+        <div id="kael">
+            <script src="main.js" id="maineee"></script>
+        </div>
+    </main>
+</body>
+
+</html>
