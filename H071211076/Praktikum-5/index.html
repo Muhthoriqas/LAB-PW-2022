@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"> -->
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lustria&display=swap" rel="stylesheet">
+    <title>BLACKJACK</title>
+  </head>
+
+  <body>
+    <ul>
+      <li><div class="bj">B</div></li>
+      <li><div class="bj">L</div></li>
+      <li><div class="bj">A</div></li>
+      <li><div class="bj">C</div></li>
+      <li><div class="bj">K</div></li>
+      <li><div class="bj">J</div></li>
+      <li><div class="bj">A</div></li>
+      <li><div class="bj">C</div></li>
+      <li><div class="bj">K</div></li>
+    </ul>
+    <p></p>
+    <p id="message-el">Play A Round?</p>
+    <p id="cards-el">Your Cards:</p>
+    <p id="sum-el">Sum:</p>
+    <button id="mulai" onclick="startGame()">START GAME</button>
+    <button id="take" onclick="newCard()">TAKE CARD</button>
+    <p id="wallet-el"></p>
+    <input id="bet" type="text" onfocus="this.value=''" value="" /><br /><br />
+    <input class="reset" type="reset" value="RESET YOUR MONEY" onclick="reset()"/>
+    <script src="script.js"></script>
+  </body>
+</html>
