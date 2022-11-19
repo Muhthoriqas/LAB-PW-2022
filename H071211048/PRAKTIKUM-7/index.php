@@ -1,5 +1,14 @@
 <?php
 
+require 'functions.php';
+$select = new Select();
+
+if (!empty($_SESSION["id"])) {
+    $user = $select->selectUserById($_SESSION["id"]);
+} else {
+    header("Location: login.php");
+}
+
 $servername = "localhost:3308";
 $username = "root";
 $password = "";
@@ -60,7 +69,7 @@ if (isset($_POST['simpan'])) { //create data
             $num_rows = mysqli_num_rows($result);
             if ($num_rows) {
                 $error = "Data sudah ada";
-            }else if($sq1){
+            }else if($q1){
                 $sql1 = "update mahasiswa set nim = '$nim',nama='$nama',alamat = '$alamat',fakultas='$fakultas' where id = '$id'";
                 $q1 = mysqli_query($conn, $sql1);
                 $sukses = "Data berhasil diupdate";
@@ -86,10 +95,10 @@ if (isset($_POST['simpan'])) { //create data
     }else{
         $error = "Silahkan masukkan semua data";
     }
-}
-    
+}    
 
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -116,6 +125,7 @@ if (isset($_POST['simpan'])) { //create data
         <div class="card">
             <div class="card-header">
                 Create / Edit Data
+                <a href="logout.php"  >Logout</a>
             </div>
             <div class="card-body">
                 <?php
