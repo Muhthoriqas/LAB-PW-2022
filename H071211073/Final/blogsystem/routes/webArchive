@@ -1,0 +1,13 @@
+// Route::get('/categories/{category:slug}', function(Category $category) {
+//     return view('posts', [
+//         'title' => "Post by Category : $category->name",
+//         'posts' => $category->posts->load('category', 'user')
+//     ]);
+// });
+
+// Route::get('/authors/{user:username}', function(User $user) {
+//     return view('posts', [
+//         'title' => "Post by Author : $user->name",
+//         'posts' => $user->posts->load('category', 'user')
+//     ]);
+// });
