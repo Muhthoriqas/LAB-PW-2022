@@ -1,0 +1,100 @@
+:root {
+    /* CSS HEX */
+    --space-cadet: #22223bff;
+    --independence: #4a4e69ff;
+    --heliotrope-gray: #9a8c98ff;
+    --silver-pink: #c9ada7ff;
+    --isabelline: #f2e9e4ff;
+}
+
+/* Login Page */
+
+
+/* Main Page Style */
+.head_table {
+    background-color: #212529;
+}
+
+.pri-navbar {
+    background-color: var(--space-cadet);
+    color: var(--isabelline);
+}
+
+.navmenu-active {
+    color: var(--space-cadet) !important;
+    font-weight: 500;
+    background-color: var(--isabelline);
+    border-radius: 12px;
+}
+
+/* Jumbotron */
+.jumtron {
+    background-color: var(--silver-pink);
+    background-position-x: center;
+    background-position-y: center;
+    /* height: 657px; */
+    height: 100vh;
+    background-size: cover;
+    background-image: url("../../assets/img/bgUH.jpeg");
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+}
+
+.jumtron .jumtron-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding-block: 40px;
+}
+
+.jumtron #welcome {
+    background-color: var(--isabelline);
+    width: fit-content;
+    border-radius: 20px;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.jumtron #stuto {
+    /* background-color: var(--isabelline); */
+    border: 1px solid var(--isabelline);
+    border-radius: 10px;
+    color: var(--isabelline);
+}
+
+.jumtron-text {
+    width: 500px;
+    /* border: 1px solid var(--isabelline); */
+    background-color: var(--isabelline);
+    border-radius: 8px;
+}
+
+/* .jumtron-text #jumtron-text-header {
+    color: var(--isabelline);
+} */
+
+.jumtron-text #jumtron-text-desc {
+    text-align: center;
+}
+
+/* login */
+
+.form_display {
+    display: grid;
+    place-items: center;
+    /* place-content: center; */
+    /* justify-content: center; */
+    height: 100vh;
+    /* align-items: center; */
+    color: var(--isabelline);
+}
+
+.form_content {
+    background-color: var(--heliotrope-gray);
+    border-radius: 20px;
+    padding: 20px;
+    color: var(--isabelline);
+}
