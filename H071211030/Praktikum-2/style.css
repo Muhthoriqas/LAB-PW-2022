@@ -1,0 +1,134 @@
+html{
+    background-color: #111111;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+nav {
+    flex: 1;
+    text-align: right;
+    text-decoration: none;
+
+}
+
+.navbar{
+    background-color: #111111;
+    height: 12%;
+    display: flex;
+    align-items: center;
+
+}
+
+.logo {
+    width: 115px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.ul-navbar{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+    
+}
+
+.li-navbar{ 
+    background-color: black;
+    border: 1px solid darkorange;
+    list-style-type: none;
+    padding: 10px;
+    margin: 5px;
+    color:whitesmoke;
+    cursor: pointer;
+}
+
+.li-navbar:hover{
+    border: 1px solid cyan;
+    color: whitesmoke;
+}
+.nav-a{
+    text-decoration:none;
+    color: white;
+}
+
+#welcome{
+    font-family: 'Ubuntu', sans-serif;
+    color:whitesmoke;
+    font-size: 5em;
+    text-align: center;
+    margin: auto;
+    height: 30px;
+    padding: 150px;
+    background-image: url(images/bleachbg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.head1 {
+    color:darkorange;
+    font-size: 2em;
+    text-align: center;
+    margin: auto;
+    height: 30px;
+    padding: 50px;
+}
+
+.s1, .s2 {
+    float: left;
+    width:500px;
+    margin-top: 50px;
+    margin-right: 10px;
+    margin-left: 150px;
+    text-align: justify;
+    color:darkorange;    
+}
+
+.s3, .s4 {
+    float: left;
+    width:500px;
+    margin-top: 50px;
+    margin-right: 10px;
+    margin-left: 150px;
+    margin-bottom: 50px;
+    text-align: justify;
+    color:darkorange;
+}
+
+.head2 {
+    color:darkorange;
+    font-size: 2em;
+    text-align: center;
+}
+
+
+.gallery {
+    margin: 6px;
+    border: 1px solid darkorange;
+    float: left;
+    width: 199px;
+    margin-top: 50px;
+}
+
+.gallery:hover {
+    border: 1px solid cyan;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.desc {
+    font-family: 'Ubuntu', sans-serif;
+    padding: 15px;
+    text-align: center;
+    color:whitesmoke;
+}
