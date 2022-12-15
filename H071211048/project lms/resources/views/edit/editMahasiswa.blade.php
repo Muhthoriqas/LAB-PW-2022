@@ -1,0 +1,64 @@
+@extends('layouts.main')
+
+@section('container')
+
+<div id="layoutSidenav_content">
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="card my-3 mx-2">
+                    <div class="card-body">
+                        <form action="/updateData/{{$data->id}}" method="POST">
+                        @csrf
+                        <div class="mb-3 row">
+                            <label for="nama" class="col-sm-2 col-form-label">Nama</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="nama" name="nama" value= "{{$data->nama}}">
+                                </div>
+                        </div>
+                        <div class="mb-3 row">
+                            <label for="nim" class="col-sm-2 col-form-label">NIM</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="nim" name="nim" value= "{{$data->nim}}">
+                                </div>
+                        </div>
+                        <div class="mb-3 row">
+                            <label for="alamat" class="col-sm-2 col-form-label">Tahun Ajaran</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="tahun_masuk" name="tahun_masuk" value="{{$data->tahun_masuk}}">
+                                </div>
+                        </div>
+                        <div class="mb-3 row">
+                            <label for="nim" class="col-sm-2 col-form-label">Alamat</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="alamat" name="alamat" value= "{{$data->alamat}}">
+                                </div>
+                        </div>
+                        <div class="mb-3 row">
+                            <label for="alamat" class="col-sm-2 col-form-label">Foto</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="foto" name="foto" value="{{$data->foto}}">
+                                </div>
+                        </div>
+                        <div class="mb-3 row">
+                            <label for="alamat" class="col-sm-2 col-form-label">No Telepon </label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="no_hp" name="no_hp" value="{{$data->no_hp}}">
+                                </div>
+                        </div>
+                        <div class="col-12">
+                            <input type="submit"  value="Simpan Data" class="btn btn-primary" />
+                        </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </main>
+</div>
+
+@endsection
+
+
+    </body>
+</html>
