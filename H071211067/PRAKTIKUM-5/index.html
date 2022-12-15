@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"> -->
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <p class="judul">BLACKJACK</p>
+    <p></p>
+    <p id="message-el">Play A Round?</p>
+    <p id="cards-el">Your Cards:</p>
+    <p id="sum-el">Sum:</p>
+    <button id="mulai" onclick="startGame()">START GAME</button>
+    <button onclick="newCard()">TAKE CARD</button>
+    <p id="player-el"></p>
+    <input id="bet" type="text" onfocus="this.value=''" value="" /><br /><br />
+    <input
+      class="reset"
+      type="reset"
+      value="RESET YOUR MONEY"
+      onclick="reset()"
+    />
+
+    <script src="index.js"></script>
+  </body>
+</html>

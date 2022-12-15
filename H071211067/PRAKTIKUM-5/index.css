@@ -1,0 +1,52 @@
+body {
+    margin-top: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+    background-image: url("Blackjack.jpg");
+    background-size: cover;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+}
+
+.judul {
+    color: goldenrod;
+    text-shadow: 3px 3px black;
+    font-size: 75px;
+}
+
+#message-el {
+    font-style: italic;
+}
+
+button {
+    color: #016f32;
+    width: 150 px;
+    background: goldenrod;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 9px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+#bet {
+    border-radius: 100px;
+    height: 34px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.reset {
+    color: #016f32;
+    width: 150 px;
+    background: goldenrod;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 9px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
