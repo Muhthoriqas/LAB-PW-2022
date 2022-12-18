@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    font-family: consolas;
+}
+
+body {
+    /* https://www.pexels.com/id-id/foto/pria-kasino-permainan-keanggunan-6664128/ */
+    background-image: url("img/pexels-anna-shvets-6664128.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #080808;
+}
+
+div {
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    color: white;
+    font-size: 50px;
+}
+
+p {
+    padding: 25px;
+    color: white;
+    font-size: 20px;
+}
+
+button {
+    padding: 10px 25px;
+    margin: 0 10px;
+    background-color: #6C190Bff;
+    color: white;
+    font-size: 15px;
+    font-style: oblique;
+    border: none;
+    border-radius: 10px;
+
+    transition: transform .2s;
+    width: auto;
+    height: 40px;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+input {
+    padding: 10px;
+}

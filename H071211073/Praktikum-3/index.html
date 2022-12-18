@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikola Tesla Fanpage</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <style>
+        .carousel .carousel-item {
+            height: 800px;
+        }
+
+        .carousel-item img {
+            position: absolute;
+            object-fit: cover;
+            top: 0;
+            left: 0;
+            min-height: 500px;
+        }
+        a:hover {
+            color:  #FDD023 !important;
+        }
+    </style>
+</head>
+
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Nikola Tesla</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" href="#about">About</a>
+                    <a class="nav-link" href="#inventions">Inventions</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/tesla1.jpg" class="d-block w-100 " alt="Tesla Portrait">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Tesla Portrait</h5>
+                    <p>Portrait of Nikola Tesla</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/tesla2.jpg" class="d-block w-100" alt="Tesla next to High Voltage Machine">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Tesla next to High Voltage Machine</h5>
+                    <p>A multiple exposure picture of Tesla sitting next to his "magnifying transmitter" generating
+                        millions of volts.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/tesla3.jpg" class="d-block w-100" alt="Tesla Thinking">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Tesla Thinking</h5>
+                    <p>Tesla sitting in front of a spiral coil used in his wireless power experiments at his East
+                        Houston St. laboratory</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <br>
+
+    <!-- Grid System : description of Nikola Tesla -->
+    <div class="container-fluid">
+        <div class="row">
+            <p id="about" class="h1 text-center">ABOUT</p>
+            <div class="col-1"></div>
+            <div class="col-4">
+                <p class="text-center">Nikola Tesla (/ˈtɛslə/ TESS-lə; Serbian Cyrillic: Никола Тесла, pronounced
+                    [nǐkola têsla]; 10 July [O.S. 28 June] 1856 – 7 January 1943) was a Serbian-American
+                    inventor, electrical engineer, mechanical engineer, and futurist best known for his contributions to
+                    the design of the modern alternating current (AC) electricity supply system. </p>
+                <p class="text-center">Born and raised in the Austrian Empire, Tesla studied engineering and physics in
+                    the 1870s without receiving a degree, gaining practical experience in the early 1880s working in
+                    telephony and at Continental Edison in the new electric power industry. In 1884 he emigrated to the
+                    United States, where he became a naturalized citizen. He worked for a short time at the Edison
+                    Machine Works in New York City before he struck out on his own. With the help of partners to finance
+                    and market his ideas, Tesla set up laboratories and companies in New York to develop a range of
+                    electrical and mechanical devices. His alternating current (AC) induction motor and related
+                    polyphase AC patents, licensed by Westinghouse Electric in 1888, earned him a considerable amount of
+                    money and became the cornerstone of the polyphase system which that company eventually marketed.</p>
+            </div>
+            <div class="col-2"></div>
+            <div class="col-4">
+                <p class="text-center">Attempting to develop inventions he could patent and market, Tesla conducted a
+                    range of experiments with mechanical oscillators/generators, electrical discharge tubes, and early
+                    X-ray imaging. He also built a wireless-controlled boat, one of the first-ever exhibited. Tesla
+                    became well known as an inventor and demonstrated his achievements to celebrities and wealthy
+                    patrons at his lab, and was noted for his showmanship at public lectures. Throughout the 1890s,
+                    Tesla pursued his ideas for wireless lighting and worldwide wireless electric power distribution in
+                    his high-voltage, high-frequency power experiments in New York and Colorado Springs. In 1893, he
+                    made pronouncements on the possibility of wireless communication with his devices. Tesla tried to
+                    put these ideas to practical use in his unfinished Wardenclyffe Tower project, an intercontinental
+                    wireless communication and power transmitter, but ran out of funding before he could complete it.
+                </p>
+                <p class="text-center">After Wardenclyffe, Tesla experimented with a series of inventions in the 1910s
+                    and 1920s with varying degrees of success. Having spent most of his money, Tesla lived in a series
+                    of New York hotels, leaving behind unpaid bills. He died in New York City in January 1943.[10]
+                    Tesla's work fell into relative obscurity following his death, until 1960, when the General
+                    Conference on Weights and Measures named the SI unit of magnetic flux density the tesla in his
+                    honor.[11] There has been a resurgence in popular interest in Tesla since the 1990s.
+                </p>
+            </div>
+            <div class="col-1"></div>
+            <div class="col-2"></div>
+            <div class="col-8">
+                <div class="card my-5 w-100">
+                    <div class="card-header">
+                        Quote
+                    </div>
+                    <div class="card-body">
+                        <blockquote class="blockquote mb-0 text-center">
+                            <p class="fst-italic">If your hate could be turned into electricity, it would light up the whole world.</p>
+                            <footer class="blockquote-footer">Nikola Tesla
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Badge & Alert : #Awards -->
+        <div class="row bg-dark mt-4">
+            <h1 class="text-center my-4 text-light"> LEGACY and HONORS</h1>
+            <div class="col-4">
+                <button type="button" class="btn btn-secondary">
+                    Enterprises and organization <span class="badge bg-secondary">4</span>
+                </button>
+                <ul class="text-light mt-3">
+                    <li>Tesla, an electrotechnical conglomerate in the former Czechoslovakia</li>
+                    <li>Tesla, Inc, an American electric car manufacturer</li>
+                    <li>Nikola Motor Company, an American hydrogen and electric class 8 truck manufacturer</li>
+                    <li>Tesla, an American rock band formed in Sacramento, California, in late 1982</li>
+                </ul>
+            </div>
+            <div class="col-4">
+                <button type="button" class="btn btn-secondary">
+                    Holiday and Events <span class="badge bg-secondary">6</span>
+                </button>
+                <ul class="text-light mt-3">
+                    <li>Day of Science, Serbia, 10 July</li>
+                    <li>Day of Nikola Tesla, Association of Teachers in Vojvodina, 4–10 July</li>
+                    <li>Day of Nikola Tesla, Niagara Falls, 10 July</li>
+                    <li>Nikola Tesla Day in Croatia, 10 July</li>
+                    <li>Nikola Tesla annual electric vehicle rally in Croatia</li>
+                    <li>In Ontario, Canada, the provincial legislature proclaimed 10 July as an annual recognition of
+                        his birth.</li>
+                </ul>
+            </div>
+            <div class="col-4">
+                <button type="button" class="btn btn-secondary">
+                    Places <span class="badge bg-secondary">3</span>
+                </button>
+                <ul class="text-light mt-3">
+                    <li>Nikola Tesla Memorial Center in Smiljan, Croatia</li>
+                    <li>Nikola Tesla Technical Museum in Zagreb, Croatia was named after the scientist in 2015</li>
+                    <li>TPP Nikola Tesla, the largest power plant in Serbia, first commissioned in 1970</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="alert alert-secondary mt-3 w-100" role="alert">
+            <strong>FYI!</strong> you can check <a
+                href="https://en.wikipedia.org/wiki/Nikola_Tesla#Legacy_and_honors">tesla's wiki</a> for more
+            information :D
+        </div>
+
+        <!-- Cards : #Inventions -->
+        <div class="row mt-5">
+            <h1 id="inventions" class="text-center my-3"> INVENTIONS</h1>
+            <div class="col-12 col-md-6 col-xl-3">
+                <div class="card h-100">
+                    <img src="img/xray.jpg" class="card-img-top" alt="Tesla's Left Hand X-Ray">
+                    <div class="card-body">
+                        <p class="card-text"> In 1894, Tesla began investigating what he referred to as radiant energy
+                            of "invisible" kinds after he had noticed damaged film in his laboratory in previous
+                            experiments which later identified as "Roentgen rays" or "X-rays"</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-3">
+                <div class="card h-100">
+                    <img src="img/tower.jpeg" class="card-img-top" alt="Wardenclyffe">
+                    <div class="card-body">
+                        <p class="card-text">Tesla's Wardenclyffe plant on Long Island in 1904. From this facility,
+                            Tesla hoped to demonstrate wireless transmission of electrical energy across the Atlantic.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-3">
+                <div class="card h-100">
+                    <img src="img/boat.jpg" class="card-img-top" alt="boat remote radio-controlled">
+                    <div class="card-body">
+                        <p class="card-text">In 1898, Tesla demonstrated a radio-controlled boat, which he hoped to sell
+                            as a guided torpedo to navies around the world.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-3">
+                <div class="card h-100">
+                    <img src="img/US390721.png" class="card-img-top" alt="AC dynamo-electric">
+                    <div class="card-body">
+                        <p class="card-text">Tesla's AC dynamo-electric machine (AC electric generator) in an 1888 U.S.
+                            Patent 390,721</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Footer & Form : #Contact? Reference -->
+        <div class="row bg-dark text-light mt-5">
+            <div class="col-4 mt-3">
+                <p class="h2">Form</p>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="name@example.com">
+
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Comments</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div>
+                    <button type="button" class="btn btn-secondary">Submit</button>
+                </div>
+            </div>
+            <div class="col-4 mt-3">
+                <p class="h2">Overview</p>
+                <ul class="list-unstyled">
+                    <li><a class="nav-link text-light" href="#about">About</a></li>
+                    <li><a class="nav-link text-light" href="#inventions">Inventions</a></li>
+                </ul>
+            </div>
+            <div class="col-4 mt-3">
+                <p class="h2">Refrerences</p>
+                <ul class="list-unstyled">
+                    <li><a class="nav-link text-light" href="https://nikolateslamuseum.org/en/">Nikola Tesla Museum</a></li>
+                    <li><a class="nav-link text-light" href="https://en.wikipedia.org/wiki/Nikola_Tesla">Nikola Tesla
+                            Wiki</a></li>
+                </ul>
+            </div>
+            <p class="text-center"> Copyright © 2022 All Rights Reserved by Djul</p>
+        </div>
+
+        <!-- Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
