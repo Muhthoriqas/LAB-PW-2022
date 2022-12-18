@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+<body>
+    <script>
+        var str = prompt("Masukkan Kalimat..");
+        if (!str) {
+        console.log("Tidak ada huruf");
+        } else {
+            // Menghitung spasi
+            var spaceCount = str.split(" ").length - 1;
+            console.log("Spasi=" + spaceCount);
+
+            // Menghilangkan Spasi pada input
+            str = str.replace(/\s/g, "");
+            // console.log(str);
+            // Membuat kalimat menjadi huruf
+            var chars = str.split("");
+            // chars = chars.sort();
+            // chars = chars.reverse();
+
+            // Variabel untuk menyimpan hasil hitungan tiap huruf
+            var letters_count = [];
+            for (var i = 0; i < chars.length; i++) {
+                if (letters_count[chars[i]] == undefined) {
+                    letters_count[chars[i]] = 0;
+                }
+                letters_count[chars[i]] += 1;
+            }
+        }
+        for (var i in letters_count) {
+            // console.log(letters_count);
+            // letters_count = letters_count.sort();
+            console.log(i + "=" + letters_count[i]);
+        } 
+    </script>
+</body>
+</html>

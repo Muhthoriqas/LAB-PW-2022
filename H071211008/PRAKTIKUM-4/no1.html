@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+<body>
+    <script>
+        let nama = prompt("Masukkan Nama Anda");
+            if (!nama.trim ()){
+                console.log("Masukkan nama anda terlebih dahulu");
+            }else {
+                let sudah = prompt("Apakah sudah mengumpulkan tugas praktikum? YES atau NO");
+                sudah = sudah.toLowerCase();
+                if (sudah === "yes") {
+                    let asistensi = prompt ("Ikut asistensi? YES atau NO")
+                    asistensi = asistensi.toLowerCase();
+                    if (asistensi === "yes") {
+                        let berapa = prompt ("Sudah berapa kali ikut asistensi? 1 atau 2")
+                        if (berapa === "1") {
+                            console.log("Asistensi sekali lagi ya " + nama);
+                        } else if(berapa === "2"){
+                            console.log("Hebat kamu " + nama);
+                        }else {
+                            console.log("Masukkan input yang benar yaitu 1 atau 2");
+                        }    
+                    }else if(asistensi === "no"){
+                        console.log("Asistensi dulu ya " + nama);
+                    }else {
+                        console.log("Masukkan input yang benar yaitu YES atau NO");
+                    }
+                }else if (sudah === "no"){
+                    console.log("Jangan lupa dikerja tugas praktikumnya " + nama);
+                }else {
+                    console.log("Masukkan input yang benar yaitu YES atau NO");
+                }
+            }
+    </script>
+</body>
+</html>
