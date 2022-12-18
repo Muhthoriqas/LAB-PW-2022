@@ -1,0 +1,54 @@
+
+body {
+    font-weight: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(blackJack.png);
+    background-position: fixed;
+    background-repeat: no-repeat;
+}
+h1{
+    text-align: center;
+    color: rgb(254, 255, 168);
+    font-size: 50px;
+    margin-top: 50px;
+}
+h2{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+    color: rgb(255, 254, 254) ;
+    -webkit-text-stroke: 1px rgb(95, 95, 82);
+}
+button{
+    width: 200px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 30px;
+    border: none;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+#start{
+    background-color: rgb(104, 231, 223);
+}
+#take{
+    background-color: rgb(254, 255, 168);
+    
+}
+#center {
+    text-align: center;
+    font-size : 110%;
+}
+#setYourBet {
+    text-align: center;
+    width: 250px;
+    border-radius: 10px;
+    height: 30px;
+}
+#resetYourMoney {
+    text-align: center;
+}
+#reset{
+    background-color: rgb(192, 255, 173);
+}
+

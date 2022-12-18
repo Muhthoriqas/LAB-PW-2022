@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>tugas</title>
+        <script>
+            var x = prompt('mau pengurangan berapa?');
+            var z = 0;
+            if (isNaN(x)) {
+                console.log('masukkan angka');
+            } else {
+                var y = prompt ('ingin dikurang sampai berapa?');
+                    if (y < 0) {
+                        console.log('tidak boleh dikurangi < 0');
+                    } else {
+                        for (let i = 1; i <= y; i++) {
+                        var hasil =i-x;
+                        console.log(i + ' - ' + x + ' = ' + hasil);
+                        z += hasil;
+                    }
+                    console.log('hasil seluruh pengurangan = ' + z);
+                }
+            }
+            
+            
+        </script>
+    </head>
+    <body>
+        
+    </body>
+</html>

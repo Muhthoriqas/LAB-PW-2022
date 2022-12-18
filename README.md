@@ -1,5 +1,6 @@
 # Repositori Pengumpula Tugas Praktikum Pemrograman Web 2022
 
+# Note: Ganti Branch Dari Main ke NIMNya Masing-Masing Jika Ingin Melihat Tugasnya
 # Link Video Cara Upload Tugas d Repos Ini : https://youtu.be/bGYV6T2rodc
 
 ## Requirements:

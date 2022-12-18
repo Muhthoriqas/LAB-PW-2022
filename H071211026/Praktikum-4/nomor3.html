@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T4 | N3</title>
+</head>
+<body>
+    <script>
+        var str = prompt("Input text");
+            var counts = [];
+            for (let i = 0; i < str.length; i++) {
+                var ch = str.charAt(i); 
+                if( ch == " " ) {
+                    ch = "spasi";
+                }
+                var count = counts[ch];
+                counts[ch] = count ? count + 1 : 1;
+            }
+            for (ch in counts) {
+                document.write(`${ch} = ${counts[ch]} <br>`);
+            }
+            
+    </script>
+</body>
+</html> 

@@ -1,0 +1,63 @@
+@import url(https://fonts.bunny.net/css?family=assistant:500);
+*{
+    font-family: 'Assistant', sans-serif;
+    margin : 0;
+    padding: 0;
+    box-sizing : border-box;
+    outline : none;
+    border: none;
+    text-decoration: none;
+}
+body{
+    background-color: indianred;
+}
+.form-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 60px;
+}
+.form-container form {
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+    background: #fff;
+    text-align: center;
+}
+.form-container form h3{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #333;
+}
+.form-container form input,
+.form-container form select
+{
+    width: 100%;
+    padding:10px 15px;
+    font-size: 17px;
+    margin: 8px 0;
+    background: #eee;
+    border-radius: 5px;
+}
+.form-container form .form-btn{
+    background:#fbd0d9 ;
+    color: crimson;
+    text-transform: capitalize;
+    font-size: 20px;
+    cursor: pointer;
+}
+.form-container form .form-btn:hover{
+    background: crimson;
+    color: #fff;
+}
+.form-container form p {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #333;
+}
+.form-container form p a {
+    color: crimson;
+}

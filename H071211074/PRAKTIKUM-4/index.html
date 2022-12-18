@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    
+    <button onclick="Nomor1()">Nomor1</button>
+    <button onclick="Nomor2()">Nomor2</button>
+    <button onclick="Nomor3()">Nomor3</button>
+
+    <script type="text/javascript">
+        function Nomor1() {
+            var nama = prompt("Masukkan nama Anda");
+            if (!nama.trim()) {
+                document.write("Namanya maniezz");
+            } else {
+                var pesan1 = prompt("Sudah mengumpulkan tugas praktikum? Yes or No?");
+                pesan1 = pesan1.toLowerCase();
+                if (pesan1 != "yes" && pesan1 != "no") {
+                    document.write("Masukkan input yang benar yaitu YES or NO")
+                } else {
+                    if (pesan1 == "no") {
+                        document.write("Jangan lupa dikerja tugas praktikumnya ", nama);
+                    } else {
+                        var pesan2 = prompt("Ikut Asistensi? Yes or No?");
+                        pesan2 = pesan2.toLowerCase();
+                        if (pesan2 != "yes" && pesan2 != "no") {
+                            document.write("Masukkan input yang benar yaitu YES or NO");
+                        } else {
+                            if (pesan2 == "no") {
+                                document.write("Asistensi dulu yah ", nama);
+                            } else {
+                                var pesan3 = prompt("Sudah berapa kali asistensi? 1 atau 2?");
+                                if (pesan3 == 1) {
+                                    document.write("Asistensi sekali lagi yah ", nama);
+                                } else if (pesan3 == 2) {
+                                    document.write("Kamu hebat ", nama);
+                                } else {
+                                    document.write("Masukkan input yang benar yaitu 1 atau 2");
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        function Nomor2() {
+            var result = 0;
+            var a = prompt("Perkalian berapa?");
+            if (isNaN(a)) {
+                document.write("Input bukan angka");
+            } else {
+                var b = prompt("Ingin dikalikan sampai berapa?");
+                if (isNaN(b)) {
+                    document.write("Input bukan angka");
+                } else {
+                    for (var i = 1; i <= b; i++) {
+                        var kali = (i * a);
+                        result += kali;
+                        document.write(i, " x ", a, " = ", kali, "<br>");
+                    }
+                    document.write("Hasil seluruh perkalian = " + result);
+                }
+            }
+        }
+
+        function Nomor3() {
+            var str = prompt("Masukkan teks");
+            var chars = str.split("");
+            var letters_count = {};
+
+            for (var i = 0; i < chars.length; i++) {
+                if (letters_count[chars[i]] == undefined)
+                    letters_count[chars[i]] = 0;
+                letters_count[chars[i]]++;
+            }
+            for (var i in letters_count) {
+                if (i == " ") {
+                    document.write("spasi" + "= " + letters_count[i] + "<br>");
+                } else {
+                    document.write(i + "= " + letters_count[i] + "<br>");
+                }
+            }
+        }
+
+
+        /*function Nomor3(string) {
+            const histogram = {}
+            for (let i = 0; i < string.length; i++) {
+                const ch = string[i];
+                if (!histogram[ch]) {
+                    histogram[ch] = 0;
+                }
+                histogram[ch]++;
+            }
+            return histogram;
+        }
+        console.log(Nomor3("haiiii09@    "));*/
+    </script>
+</body>
+
+</html>

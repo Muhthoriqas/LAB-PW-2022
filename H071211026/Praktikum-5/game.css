@@ -1,0 +1,51 @@
+body {
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* margin-top : 50px;
+    margin-bottom: 53px; */
+    /* background-color: rgb(23, 54, 83); */
+}
+
+* {
+    font-family: 'Righteous', cursive;
+}
+
+body h1 {
+    color: whitesmoke;
+    text-shadow: 5px;
+    font-size: 44px;
+}
+
+body h3{
+    color: whitesmoke;
+    text-shadow: 5px;
+}
+
+input[type=number] {
+    border: 1px solid rgb(33, 107, 245);
+    border-radius: 8px;
+    padding: 10px 25px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+button {
+    border: 1px solid rgb(33, 107, 245); 
+    background-color: rgb(33, 107, 245);
+    font-size: 15px;
+    text-align: center;
+    color: whitesmoke;
+    padding: 12px 25px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    transition: 0.4s;
+}
+
+button:hover {
+    background-color: whitesmoke;
+    color: rgb(14, 24, 44);
+}
+

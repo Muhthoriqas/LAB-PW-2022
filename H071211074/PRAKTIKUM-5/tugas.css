@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+div {
+    width: 50%;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(./wood.jpg);
+    background-size: cover;
+    text-align: center;
+    border-radius: 20%;
+    border: solid 2px rgb(80, 27, 27);
+}
+
+h1 {
+    color: burlywood;
+    font-family: 'Cinzel Decorative';
+    font-style: italic;
+}
+
+p {
+    color: white;
+    font-weight: bold;
+}
+
+input {
+    text-align: center;
+}
+
+button {
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: black;
+    background-color: burlywood;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: white;
+}
+
+.form {
+    border-radius: 10px;
+}
