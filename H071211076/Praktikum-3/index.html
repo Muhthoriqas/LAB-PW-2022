@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9515674149.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+            <img src="mu1.png" alt="Logo" style="width:40px;" class="rounded-pill">
+          </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="javascript:void(0)"><b>WE ARE UNITED</b></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#players">Players</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#coach">Coach</a>
+              </li
+              <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">More</a>
+                  <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="https://www.manutd.com/en/club">Club Information</a></li>
+                      <li><a class="dropdown-item" href="https://www.manutd.com/en/partners">Partner</a></li>
+                      <li><a class="dropdown-item" href="https://www.manutd.com/en/history">Club History</a></li>
+                      <li><a class="dropdown-item" href="https://www.manutd.com/en/partners/charity?source=menu">Charities</a></li>
+                      <li><a class="dropdown-item" href="https://www.manutd.com/en/academy">MU Academy</a></li>
+                  </ul>
+              </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="text" placeholder="Search">
+            <button class="btn btn-secondary" type="button">Search</button>
+          </form>
+        </div>
+      </div>
+      </nav>
+    <!-- Navbar End -->
+    
+    <!-- Carousel -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://assets.manutd.com/AssetPicker/images/0/0/10/87/677840/HistoryByDecade-1990-199911521026502599_large.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>1990-1999</h5>
+              <p class="desc">The dawn of the 1990s saw Alex Ferguson collect his first silverware as Manchester United manager, and Liverpool winning their last League title with an ageing team. </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://assets.manutd.com/AssetPicker/images/0/0/10/87/677841/HistoryByDecade-2000-200911521026643284_large.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>2000-2010</h5>
+              <p class="desc">United started the new decade, century and millennium in typical pioneering fashion, entering a brand new competition </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://assets.manutd.com/AssetPicker/images/0/0/10/87/677842/HistoryByDecade-2010-Present11521026838705_large.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>2010 Onwards</h5>
+              <p class="desc">Despite a solid start to the campaign, United’s 2009/10 term contained a sting in the tail as Chelsea’s late surge for the line ended the Reds’ chances of winning a fourth successive title by a single point in a race which ran until the final day of the season.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <!-- Carousel End -->
+
+    <!-- About Manchester -->
+    <section class="about bg-light" id="about">
+        <div class="container">
+          <div class="row pt-3 pb-3">
+            <div class="col">
+            <h4 class="text-center">Manchester United</h4>
+            </div>
+          </div>
+          <div class="row justify-content-center text-justify pb-5">
+            <div class="col-md-5">
+              <p class="text-justify">Manchester United Football Club is a professional football club based in Old Trafford , Greater Manchester , which plays in the English Premier League with the most English Premier League titles of all time. Founded as Newton Heath LYR Football Club in 1878, the club changed its name to Manchester United in 1902 and moved to Old Trafford in 1910.</p>
+            </div>
+            <div class="col-md-5">
+              <p class="text-justify">Manchester United has won numerous trophies in English football, including a record 20 League titles, 12 FA Cups , four League Cups and a record 21 FA Community Shields . The club has also won three European Cups , one UEFA Cup , one UEFA Cup Winners' Cup , one UEFA Super Cup , one Intercontinental Cup and one FIFA Club World Cup.. In 1998-1999.</p>
+        </div>
+            <div class="col-md-5">
+            <p class="text-justify">The Munich Air Disaster of 1958 claimed the lives of eight players. In 1968, under the management of Matt Busby , Manchester United was the first English football club to win the European Cup. while Alex Ferguson won a total of 38 major titles, from November 1986 to May 2013, [4] [5] when he announced his retirement after 26 years at the club.</p>
+        </div>
+        <div class="col-md-5">
+            <p class="text-justify">Manchester United was the third richest football club in the world for 2011–12 in terms of revenue, with annual revenues of €395.9 million, and the second most valuable club in 2013, valued at $3.165 billion. And in January 2015, Manchester United was named the second richest club in the world.</p>
+        </div>
+    </div>
+        </section>
+    <!-- About Manchester end -->
+
+    <!-- player profile -->
+    
+    <div class="team-grid">
+      <div class="container">
+          <div class="intro">
+              <h2 id="players" class="text-center">Meet Our Players</h2>
+              <p class="text-center">Here is our current squad lineup</p>
+          </div>
+          <div class="row people d-flex justify-content-center">
+              <div class="col-md-4 col-lg-3 item">
+                  <div class="box" style="background-image:url(https://assets.manutd.com/AssetPicker/images/0/0/16/247/1111858/Player_Profile_Thumbnail_Mens_2223_Kit_DDG1658217260527.jpg)">
+                      <div class="cover">
+                          <h3 class="name">David De Gea</h3>
+                          <p class="title">Goalkeeper</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4 col-lg-3 item">
+                  <div class="box" style="background-image:url(https://assets.manutd.com/AssetPicker/images/0/0/16/247/1111870/Player_Profile_Thumbnail_Mens_2223_Kit_Varane1658219566190.jpg)">
+                      <div class="cover">
+                          <h3 class="name">Raphael Varane</h3>
+                          <p class="title">Center Back</p>                          
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4 col-lg-3 item">
+                  <div class="box" style="background-image:url(https://assets.manutd.com/AssetPicker/images/0/0/17/3/1114943/LM_Player_Profile_Thumbnail1658929466190.jpg)">
+                      <div class="cover">
+                          <h3 class="name">Lisandro Martinez</h3>
+                          <p class="title">Center Back</p>                         
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4 col-lg-3 item">
+                <div class="box" style="background-image:url(https://assets.manutd.com/AssetPicker/images/0/0/16/236/1109138/Player_Profile_Thumbnail1657623553321.jpg)">
+                    <div class="cover">
+                        <h3 class="name">Tyler Malacia</h3>
+                        <p class="title">Left Back</p>                      
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-3 item">
+              <div class="box" style="background-image:url(https://assets.manutd.com/AssetPicker/images/0/0/16/247/1111857/Player_Profile_Thumbnail_Mens_2223_Kit_Dalot1658217740284.jpg)">
+                  <div class="cover">
+                      <h3 class="name">Diogo Dalot</h3>
+                      <p class="title">Right Back</p>                      
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4 col-lg-3 item">
+            <div class="box" style="background-image:url(https://assets.manutd.com/AssetPicker/images/0/0/17/3/1114946/CE_Player_Profile_Thumbnail1658929113165.jpg)">
+                <div class="cover">
+                    <h3 class="name">Christian Eriksen</h3>
+                    <p class="title">Center Attacking Midfielder</p>                   
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-lg-3 item">
+          <div class="box" style="background-image:url(https://assets.manutd.com/AssetPicker/images/0/0/16/247/1111860/Player_Profile_Thumbnail_Mens_2223_Kit_Fred1658218418880.jpg)">
+              <div class="cover">
+                  <h3 class="name">Fred</h3>
+                  <p class="title">Center Midfielder</p>                 
+              </div>
+          </div>
+      </div>
+      <div class="col-md-4 col-lg-3 item">
+        <div class="box" style="background-image:url(https://assets.manutd.com/AssetPicker/images/0/0/17/89/1137010/C_Player_Profile_Thumbnail_copy1661414109798.jpg)">
+            <div class="cover">
+                <h3 class="name">Casemiro</h3>
+                <p class="title">Center Defensive Midfielder</p>               
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 col-lg-3 item">
+      <div class="box" style="background-image:url(https://assets.manutd.com/AssetPicker/images/0/0/16/247/1111866/Player_Profile_Thumbnail_Mens_2223_Kit_Rashford1658219371866.jpg)">
+          <div class="cover">
+              <h3 class="name">Marcus Rashford</h3>
+              <p class="title">Left Winger</p>              
+          </div>
+      </div>
+  </div>
+  <div class="col-md-4 col-lg-3 item">
+    <div class="box" style="background-image:url(https://assets.manutd.com/AssetPicker/images/0/0/16/225/1106212/Player_Profile_Thumbnail_Mens_Martial1656590719081.jpg)">
+        <div class="cover">
+            <h3 class="name">Anthony Martial</h3>
+            <p class="title">Center Forward</p>          
+        </div>
+    </div>
+</div>
+<div class="col-md-4 col-lg-3 item">
+  <div class="box" style="background-image:url(https://assets.manutd.com/AssetPicker/images/0/0/17/101/1139991/Antony_thumbnail_grid1662127295056.jpg)">
+      <div class="cover">
+          <h3 class="name">Antony</h3>
+          <p class="title">Right Winger</p>          
+      </div>
+  </div>
+</div>     
+</div>
+  </div>
+      </div>
+    <!-- player profile end -->
+
+    <!-- Cards -->
+    <h2 id="coach"class="text-center pt-5 pb-1">Meet Our Coaches</h2>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card bg-secondary">
+          <img src="https://assets.manutd.com/AssetPicker/images/0/0/17/105/1141074/MUFC_v_AFC_2223_711662300095204_large.jpg" class="card-img-top" alt="Hollywood Sign on The Hill"/>
+          <div class="card-body">
+            <h4 class="card-title text-light text-center"><span class="badge badge-secondary">Sir Alex Ferguson</span></h4>
+            <p class="text-center text-light">1986-2013</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card bg-secondary">
+          <img src="https://assets.manutd.com/AssetPicker/images/0/0/14/168/960558/A94T8485_20210209705484141612899307800_large.jpg" class="card-img-top" alt="Palm Springs Road"/>
+          <div class="card-body">
+            <h4 class="card-title text-light text-center"><span class="badge badge-secondary">David Moyes</span></h4>        
+            <p class="text-center text-light">2013-2014</p>   
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card bg-secondary">
+          <img src="https://assets.manutd.com/AssetPicker/images/0/0/16/145/1085924/JUT_5661_72d69063_3b9c_4f50_9191_0fc17ae84177_cbd082b1_a994_44c8_904f_cfe4249eccbf1650719083932_large.jpg" class="card-img-top" alt="Los Angeles Skyscrapers"/>
+          <div class="card-body">
+            <h4 class="card-title text-light text-center"><span class="badge badge-secondary">Ralf Rangnick</span></h4>  
+            <p class="text-center text-light">2021-2022</p>          
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card bg-secondary">
+          <img src="https://assets.manutd.com/AssetPicker/images/0/0/11/76/740409/GettyImages-106981215631544291902496_large.jpg" class="card-img-top" alt="Skyscrapers"/>
+          <div class="card-body">
+            <h4 class="card-title text-light text-center"><span class="badge badge-secondary">Jose Mourinho</span></h4>   
+            <p class="text-center text-light">2016-2018</p>        
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card bg-secondary">
+          <img src="https://assets.manutd.com/AssetPicker/images/0/0/15/43/994183/GettyImages_1320228665_11622067647640_large.jpg" class="card-img-top" alt="Skyscrapers"/>
+          <div class="card-body ">
+            <h4 class="card-title text-light text-center"><span class="badge badge-secondary">Ole Gunar Solksjaer</span></h4> 
+            <p class="text-center text-light">2018-2021</p>          
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card bg-secondary">
+          <img src="https://assets.manutd.com/AssetPicker/images/0/0/17/112/1142938/GettyImages_14219916091662665573314_large.jpg" class="card-img-top"/>
+          <div class="card-body ">
+            <h4 class="card-title text-light text-center" class="text-center"><span class="badge badge-secondary">Erik Ten Hag</span></h4>
+            <p class="text-center text-light">2022-Onwards</p>      
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Cards End -->
+<br><br>
+    <!-- Footer Form -->
+    <footer class="text-center text-white" style="background-color: lightslategray;">
+      <!-- Grid container -->
+      <div class="container pt-4">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a
+            class="btn btn-link btn-floating btn-lg text-dark m-1"
+            href="#!"
+            role="button"
+            data-mdb-ripple-color="dark"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+    
+          <!-- Twitter -->
+          <a
+            class="btn btn-link btn-floating btn-lg text-dark m-1"
+            href="#!"
+            role="button"
+            data-mdb-ripple-color="dark"
+            ><i class="fab fa-twitter"></i
+          ></a>
+    
+          <!-- Google -->
+          <a
+            class="btn btn-link btn-floating btn-lg text-dark m-1"
+            href="#!"
+            role="button"
+            data-mdb-ripple-color="dark"
+            ><i class="fab fa-google"></i
+          ></a>
+    
+          <!-- Instagram -->
+          <a
+            class="btn btn-link btn-floating btn-lg text-dark m-1"
+            href="#!"
+            role="button"
+            data-mdb-ripple-color="dark"
+            ><i class="fab fa-instagram"></i
+          ></a>
+    
+          <!-- Linkedin -->
+          <a
+            class="btn btn-link btn-floating btn-lg text-dark m-1"
+            href="#!"
+            role="button"
+            data-mdb-ripple-color="dark"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <!-- Github -->
+          <a
+            class="btn btn-link btn-floating btn-lg text-dark m-1"
+            href="#!"
+            role="button"
+            data-mdb-ripple-color="dark"
+            ><i class="fab fa-github"></i
+          ></a>
+          <button type="button" class="btn btn-secondary" data-mdb-ripple-color="dark">Login</button>
+          <button type="button" class="btn btn-dark">Sign Up</button>
+        </section>
+        <!-- Section: Social media -->
+      </div>
+      <!-- Grid container -->
+    
+      <!-- Copyright -->
+      <div class="text-center text-light p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2020 Copyright:
+        <a class="text-light" href="#">©2022 Manchester United FC Ltd</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer Form End -->
+    
+</body>
+</html>
+

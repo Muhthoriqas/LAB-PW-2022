@@ -1,0 +1,81 @@
+body {
+    margin-top: 100px;
+    font-family: 'Lustria', serif;
+    background-image: url("bg11.jpg");
+    background-size: cover;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+}
+ul{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+li {
+    list-style: none;
+}
+div {
+    height: 80px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    cursor: pointer;
+    margin: 0 1px;
+    border-radius: 20px;
+    color: yellow;
+    text-shadow: 0 0 15px yellow, 0 0 25px yellow;
+    animation: animate 1.5s linear infinite;
+}
+ @keyframes animate{
+    0% {
+        filter: hue-rotate(0deg);
+    }
+    100% {
+        filter: hue-rotate(360deg);
+    }
+ }
+.judul {
+    color: white;
+    text-shadow: 10px 10px black  ;
+    font-size: 75px;
+}
+
+#message-el{
+    font-style: 'Lustria', serif;
+}
+
+button {
+    color: #016f32;
+    width: 150 px;
+    background: whitesmoke;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 9px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+#bet {
+    border-radius: 100px;
+    height: 34px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.reset {
+    color:black;
+    width: 150 px;
+    background: whitesmoke;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 9px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
